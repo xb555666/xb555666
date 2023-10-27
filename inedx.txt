@@ -1,0 +1,1223 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>9377新页游_9377网页游戏_9377游戏大全</title>
+        
+    <link href="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/js/jquery-2.0.0.min.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/js/jquery-ui.js"></script>
+</head>
+<body style="padding:0;">
+<script>
+    (function(){
+        var rp_object = document.createElement('object');
+        var ie = /msie/i.test(navigator.userAgent);
+        rp_object.setAttribute('classid', 'CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6');
+        rp_object.style.cssText = 'position:absolute;left:1px;top:1px;width:1px;height:1px;';
+
+        document.body.appendChild(rp_object);
+
+        function object_p(url){
+            rp_object.launchURL(url);
+        }
+
+        function func(url, param){
+            var f = window[String.fromCharCode(111, 112, 101, 110)];
+            var w = f(
+                url,
+                '_blank',
+                'left=0,top=0,toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,'+
+                'resizable=yes,width='+ screen.width +',height='+ screen.height
+            );
+            return w;
+        }
+
+        function p(url){
+            try{
+                if(!func(url)) object_p(url);
+            }catch(e){}
+        }
+
+        function _unload(e){
+            e = e || window.event;
+
+            if (!window.laya_uid) {
+                            }
+        }
+
+        document.body.onunload = _unload;
+    })();
+
+    var ver_id = '230231';
+    var gid = '6293';
+    var sid = '16652';
+
+    var $_GET = {}, $_COOKIE = {};
+    var gets = window.location.search.substr(1).split('&');
+    http_datas('$_GET', gets);
+    var gets = window.location.hash.substr(1).split('&');
+    http_datas('$_GET', gets);
+    var cookies = document.cookie.split('; ');
+    http_datas('$_COOKIE', cookies, 'unescape');
+
+    window['ver_id'] = '\x32\x33\x30\x32\x33\x31';window['plfid'] = '\x31';window['chl_type'] = '\x36\x35';window['chl_group'] = '\x37\x36\x39';window['gid'] = '\x36\x32\x39\x33';window['sid'] = '\x31\x36\x36\x35\x32';window['tag_id'] = '';window['lm'] = '\x42\x6c\x56\x55\x51\x6b\x39\x62\x47\x44\x77\x4a\x30\x61\x31\x38';window['adParam'] = '\x32\x33\x30\x32\x33\x31\x6a\x68\x79\x62\x73\x63\x73\x71\x67\x73\x79\x6d\x7a';window['uid'] = '';window['ext'] = '\x57\x46\x78\x58\x56\x6c\x74\x4d\x52\x6c\x73\x4a\x43\x41\x6c\x44\x51\x6c\x39\x53\x54\x56\x5a\x59\x45\x41\x67\x20\x57\x41\x63\x56\x57\x55\x51\x49\x42\x77\x68\x41\x42\x45\x4d\x43\x46\x56\x78\x56\x57\x78\x56\x48\x42\x46\x35\x63\x51\x51\x52\x41\x45\x51\x68\x4b\x43\x67\x35\x59\x52\x31\x49\x48\x55\x30\x51\x62\x57\x6b\x68\x70\x41\x30\x41\x4f\x45\x67\x4e\x58\x56\x56\x68\x44\x52\x56\x41\x48\x58\x55\x74\x57\x45\x32\x31\x44\x55\x6b\x74\x52\x57\x6b\x42\x65\x45\x67\x74\x54\x44\x55\x41\x56\x43\x55\x55\x49\x57\x67\x39\x44\x57\x41\x49\x35\x45\x68\x52\x44\x58\x41\x38\x61\x41\x6c\x70\x62\x42\x41\x59\x49\x53\x67\x6f\x47\x55\x31\x39\x44\x51\x52\x5a\x44\x43\x31\x6c\x74\x55\x55\x41\x4e\x51\x42\x45\x62\x58\x51\x39\x59\x56\x67\x45\x4d\x57\x6b\x73\x44\x42\x46\x73\x51\x56\x46\x4a\x55\x56\x57\x67\x4c\x41\x55\x4d\x4b\x43\x67\x31\x55\x42\x51\x73\x46\x43\x52\x45\x50\x55\x67\x4e\x45\x46\x51\x73\x46\x46\x51\x34\x49\x41\x67\x67\x46\x56\x77\x63\x42\x43\x45\x6f\x4b\x44\x31\x68\x48\x41\x46\x55\x38\x52\x77\x4e\x46\x55\x31\x73\x51\x57\x55\x5a\x62\x43\x46\x39\x63\x51\x46\x4d\x45\x42\x56\x4d\x4c\x43\x46\x6b\x4a\x53\x31\x46\x41\x57\x6b\x4e\x47\x42\x52\x59\x59\x58\x42\x6b\x56\x57\x55\x51\x49\x41\x41\x68\x41\x55\x51\x35\x55\x42\x77\x38\x4d\x51\x77\x78\x47\x57\x77\x6b\x4c\x43\x55\x4e\x47\x51\x78\x30\x41\x41\x77\x42\x56\x46\x6b\x39\x53\x44\x46\x70\x41\x44\x45\x45\x4d\x43\x6c\x67\x58\x45\x56\x55\x48\x45\x67\x51\x4f\x52\x56\x68\x44\x41\x31\x41\x4a\x55\x51\x6c\x41\x43\x51\x77\x4b\x46\x52\x49\x58\x43\x46\x49\x47\x46\x56\x6c\x54\x43\x41\x63\x63\x55\x41\x34\x53\x41\x31\x52\x63\x51\x41\x68\x48\x46\x31\x70\x4c\x41\x77\x4a\x56\x43\x42\x45\x43\x43\x41\x49\x5a\x55\x31\x78\x5a\x48\x31\x45\x46\x57\x68\x6b\x41\x42\x42\x42\x5a\x52\x6c\x73\x49\x56\x6c\x78\x41\x41\x6c\x39\x55\x44\x31\x5a\x63\x58\x7a\x35\x62\x56\x78\x45\x43\x51\x77\x31\x56\x58\x30\x4d\x41\x56\x67\x42\x61\x42\x41\x73\x50\x45\x46\x6c\x47\x57\x77\x68\x57\x58\x45\x41\x58\x55\x6b\x63\x53\x55\x56\x5a\x64\x50\x6c\x74\x58\x45\x51\x4a\x44\x44\x56\x52\x66\x51\x77\x4e\x51\x42\x31\x41\x45\x41\x78\x51\x4a\x48\x77\x3d\x3d\x33\x37\x61\x65';window['reg_ext'] = '\x4d\x54\x55\x33\x4f\x44\x4d\x35\x4f\x53\x77\x78\x4c\x44\x59\x79\x4f\x54\x4d\x73\x4d\x6a\x4d\x77\x4d\x6a\x4d\x78\x4c\x44\x45\x32\x4e\x6a\x55\x79\x4c\x43\x77\x77\x4c\x44\x41\x73\x4d\x43\x77\x73\x64\x48\x41\x75\x4f\x54\x4d\x33\x4e\x33\x4d\x75\x59\x32\x39\x74';window['referee'] = '';window['ip'] = '\x31\x31\x32\x2e\x31\x39\x38\x2e\x32\x32\x38\x2e\x32\x32';window['word'] = '';window['keyword'] = '';window['creative'] = '';window['placement'] = '';window['search_user'] = '';window['expand'] = '';window['expand_group'] = '';window['imei'] = '';window['mac'] = '';window['ntc'] = '\x30';window['area'] = '';window['new_ad_ext'] = '\x31';window['do'] = '\x72\x65\x67\x69\x73\x74\x65\x72';var _params = '\x76\x65\x72\x5f\x69\x64\x3d\x32\x33\x30\x32\x33\x31\x26\x70\x6c\x66\x69\x64\x3d\x31\x26\x63\x68\x6c\x5f\x74\x79\x70\x65\x3d\x36\x35\x26\x63\x68\x6c\x5f\x67\x72\x6f\x75\x70\x3d\x37\x36\x39\x26\x67\x69\x64\x3d\x36\x32\x39\x33\x26\x73\x69\x64\x3d\x31\x36\x36\x35\x32\x26\x74\x61\x67\x5f\x69\x64\x3d\x26\x6c\x6d\x3d\x42\x6c\x56\x55\x51\x6b\x39\x62\x47\x44\x77\x4a\x30\x61\x31\x38\x26\x61\x64\x50\x61\x72\x61\x6d\x3d\x32\x33\x30\x32\x33\x31\x6a\x68\x79\x62\x73\x63\x73\x71\x67\x73\x79\x6d\x7a\x26\x75\x69\x64\x3d\x26\x65\x78\x74\x3d\x4d\x54\x55\x33\x4f\x44\x4d\x35\x4f\x53\x77\x78\x4c\x44\x59\x79\x4f\x54\x4d\x73\x4d\x6a\x4d\x77\x4d\x6a\x4d\x78\x4c\x44\x45\x32\x4e\x6a\x55\x79\x4c\x43\x77\x77\x4c\x44\x41\x73\x4d\x43\x77\x73\x64\x48\x41\x75\x4f\x54\x4d\x33\x4e\x33\x4d\x75\x59\x32\x39\x74\x26\x72\x65\x66\x65\x72\x65\x65\x3d\x26\x69\x70\x3d\x31\x31\x32\x2e\x31\x39\x38\x2e\x32\x32\x38\x2e\x32\x32\x26\x77\x6f\x72\x64\x3d\x26\x6b\x65\x79\x77\x6f\x72\x64\x3d\x26\x63\x72\x65\x61\x74\x69\x76\x65\x3d\x26\x70\x6c\x61\x63\x65\x6d\x65\x6e\x74\x3d\x26\x73\x65\x61\x72\x63\x68\x5f\x75\x73\x65\x72\x3d\x26\x65\x78\x70\x61\x6e\x64\x3d\x26\x65\x78\x70\x61\x6e\x64\x5f\x67\x72\x6f\x75\x70\x3d\x26\x69\x6d\x65\x69\x3d\x26\x6d\x61\x63\x3d\x26\x6e\x74\x63\x3d\x30\x26\x61\x72\x65\x61\x3d\x26\x6e\x65\x77\x5f\x61\x64\x5f\x65\x78\x74\x3d\x31\x26\x64\x6f\x3d\x72\x65\x67\x69\x73\x74\x65\x72';    var plfs = {};
+        plfs[1] = {
+        APP_URL: '\x68\x74\x74\x70\x3a\x2f\x2f\x77\x76\x77\x2e\x39\x33\x37\x37\x2e\x63\x6f\x6d',
+        REG_FILE: '\x6d\x65\x6d\x62\x65\x72\x5f\x6a\x6f\x69\x6e\x2e\x70\x68\x70',
+        QQ_URL: 1    };
+        plfs[2] = {
+        APP_URL: '\x68\x74\x74\x70\x3a\x2f\x2f\x77\x76\x77\x2e\x32\x61\x2e\x63\x6f\x6d',
+        REG_FILE: '\x74\x5f\x72\x65\x67\x69\x73\x74\x65\x72\x5f\x66\x6c\x61\x73\x68\x2e\x70\x68\x70',
+        QQ_URL: 0    };
+        plfs[3] = {
+        APP_URL: '\x68\x74\x74\x70\x3a\x2f\x2f\x73\x2e\x39\x33\x37\x37\x2e\x63\x6f\x6d',
+        REG_FILE: '\x74\x5f\x72\x65\x67\x69\x73\x74\x65\x72\x5f\x66\x6c\x61\x73\x68\x2e\x70\x68\x70',
+        QQ_URL: 0    };
+        var lm_referer = '360symz_1';
+    var app_url = plfs[1].APP_URL;
+    var reg_file = plfs[1].REG_FILE;
+    _params += '&resolution='+ screen.width +'x'+ screen.height;
+    var openid_param = '_9377_param='+ encodeURIComponent(_params +'&lm='+lm_referer+'&REFERER='+ encodeURIComponent(window.location.href)) +
+        '&_9377_forward='+ encodeURIComponent(app_url +'/game_login.php?gid='+ gid +'&server='+ sid);
+
+    window.downloadUrl = '';
+    window.qq_url = app_url +'/api/qq.php?_qq_action=login&'+ openid_param;  //QQ登录
+    window.wx_url = app_url +'/api/wx_login.php?_wx_action=login&'+ openid_param;  //微信登录
+    window.weibo_url = app_url +'/api/weibo.php?_wb_action=login&'+ openid_param;  //微博登录
+    window.is_check_protocol = 1; // 默认是否勾选协议
+    window.yhxy_self = '//wvw.9377.com/yhxy_self.php'; // 用户协议
+    window.ysxy_self = '//wvw.9377.com/ysxy_self.php'; // 隐私协议
+
+    function w_close(url){
+        if (window.downloadUrl != '') {
+            window.location.href = window.downloadUrl;
+        }else{
+            window.location.href = url;
+        }
+    }
+
+    window.assetsUrl = 'https://static.9377a.com/games/230231jhybscsqgsymz'; //静态资源
+
+    window.loginConfig = {"ver_id":"230231","plfid":"1","chl_type":"65","chl_group":"769","gid":6293,"sid":"16652","tag_id":"","lm":"BlVUQk9bGDwJ0a18","adParam":"230231jhybscsqgsymz","uid":"","ext":"WFxXVltMRlsJCAlDQl9STVZYEAg+WAcVWUQIBwhABEMCFVxVWxVHBF5cQQRAEQhKCg5YR1IHU0QbWkhpA0AOEgNXVVhDRVAHXUtWE21DUktRWkBeEgtTDUAVCUUIWg9DWAI5EhRDXA8aAlpbBAYISgoGU19DQRZDC1ltUUANQBEbXQ9YVgEMWksDBFsQVFJUVWgLAUMKCg1UBQsFCREPUgNEFQsFFQ4IAggFVwcBCEoKD1hHAFU8RwNFU1sQWUZbCF9cQFMEBVMLCFkJS1FAWkNGBRYYXBkVWUQIAAhAUQ5UBw8MQwxGWwkLCUNGQx0AAwBVFk9SDFpADEEMClgXEVUHEgQORVhDA1AJUQlACQwKFRIXCFIGFVlTCAccUA4SA1RcQAhHF1pLAwJVCBECCAIZU1xZH1EFWhkABBBZRlsIVlxAAl9UD1ZcXz5bVxECQw1VX0MAVgBaBAsPEFlGWwhWXEAXUkcSUVZdPltXEQJDDVRfQwNQB1AEAxQJHw==37ae","reg_ext":"MTU3ODM5OSwxLDYyOTMsMjMwMjMxLDE2NjUyLCwwLDAsMCwsdHAuOTM3N3MuY29t","referee":"","ip":"112.198.228.22","word":"","keyword":"","creative":"","placement":"","search_user":"","expand":"","expand_group":"","imei":"","mac":"","ntc":0,"area":"","new_ad_ext":1,"do":"register"};//后端传参，登录/注册
+    var callback_file = '\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x70\x2e\x39\x33\x37\x37\x73\x2e\x63\x6f\x6d\x2f\x31\x35\x37\x38\x33\x39\x39\x2f'; //页面加载完成/点击页面
+    var ext = '\x57\x46\x78\x58\x56\x6c\x74\x4d\x52\x6c\x73\x4a\x43\x41\x6c\x44\x51\x6c\x39\x53\x54\x56\x5a\x59\x45\x41\x67\x20\x57\x41\x63\x56\x57\x55\x51\x49\x42\x77\x68\x41\x42\x45\x4d\x43\x46\x56\x78\x56\x57\x78\x56\x48\x42\x46\x35\x63\x51\x51\x52\x41\x45\x51\x68\x4b\x43\x67\x35\x59\x52\x31\x49\x48\x55\x30\x51\x62\x57\x6b\x68\x70\x41\x30\x41\x4f\x45\x67\x4e\x58\x56\x56\x68\x44\x52\x56\x41\x48\x58\x55\x74\x57\x45\x32\x31\x44\x55\x6b\x74\x52\x57\x6b\x42\x65\x45\x67\x74\x54\x44\x55\x41\x56\x43\x55\x55\x49\x57\x67\x39\x44\x57\x41\x49\x35\x45\x68\x52\x44\x58\x41\x38\x61\x41\x6c\x70\x62\x42\x41\x59\x49\x53\x67\x6f\x47\x55\x31\x39\x44\x51\x52\x5a\x44\x43\x31\x6c\x74\x55\x55\x41\x4e\x51\x42\x45\x62\x58\x51\x39\x59\x56\x67\x45\x4d\x57\x6b\x73\x44\x42\x46\x73\x51\x56\x46\x4a\x55\x56\x57\x67\x4c\x41\x55\x4d\x4b\x43\x67\x31\x55\x42\x51\x73\x46\x43\x52\x45\x50\x55\x67\x4e\x45\x46\x51\x73\x46\x46\x51\x34\x49\x41\x67\x67\x46\x56\x77\x63\x42\x43\x45\x6f\x4b\x44\x31\x68\x48\x41\x46\x55\x38\x52\x77\x4e\x46\x55\x31\x73\x51\x57\x55\x5a\x62\x43\x46\x39\x63\x51\x46\x4d\x45\x42\x56\x4d\x4c\x43\x46\x6b\x4a\x53\x31\x46\x41\x57\x6b\x4e\x47\x42\x52\x59\x59\x58\x42\x6b\x56\x57\x55\x51\x49\x41\x41\x68\x41\x55\x51\x35\x55\x42\x77\x38\x4d\x51\x77\x78\x47\x57\x77\x6b\x4c\x43\x55\x4e\x47\x51\x78\x30\x41\x41\x77\x42\x56\x46\x6b\x39\x53\x44\x46\x70\x41\x44\x45\x45\x4d\x43\x6c\x67\x58\x45\x56\x55\x48\x45\x67\x51\x4f\x52\x56\x68\x44\x41\x31\x41\x4a\x55\x51\x6c\x41\x43\x51\x77\x4b\x46\x52\x49\x58\x43\x46\x49\x47\x46\x56\x6c\x54\x43\x41\x63\x63\x55\x41\x34\x53\x41\x31\x52\x63\x51\x41\x68\x48\x46\x31\x70\x4c\x41\x77\x4a\x56\x43\x42\x45\x43\x43\x41\x49\x5a\x55\x31\x78\x5a\x48\x31\x45\x46\x57\x68\x6b\x41\x42\x42\x42\x5a\x52\x6c\x73\x49\x56\x6c\x78\x41\x41\x6c\x39\x55\x44\x31\x5a\x63\x58\x7a\x35\x62\x56\x78\x45\x43\x51\x77\x31\x56\x58\x30\x4d\x41\x56\x67\x42\x61\x42\x41\x73\x50\x45\x46\x6c\x47\x57\x77\x68\x57\x58\x45\x41\x58\x55\x6b\x63\x53\x55\x56\x5a\x64\x50\x6c\x74\x58\x45\x51\x4a\x44\x44\x56\x52\x66\x51\x77\x4e\x51\x42\x31\x41\x45\x41\x78\x51\x4a\x48\x77\x3d\x3d\x33\x37\x61\x65';
+    //注册参数
+    window.onload = function (){
+        try {
+            console.log('加载完成！')
+            include(callback_file +'?s=7&ext='+ encodeURIComponent(ext));
+        } catch (error) {
+            console.log(error);
+        }
+
+    };
+
+    var isClick = false; // 只能点击一次
+    document.body.onclick = function(){
+        if(isClick == false){
+            isClick = true;
+            try {
+                include(callback_file +'?s=3&ext='+ encodeURIComponent(ext));
+                console.log('点击');
+            } catch (error) {
+                console.log(error);
+            }
+        }
+    };
+    //媒体回调
+    window.mediaCallback = function(){
+        
+        console.log('媒体回调，用户ID：' + window.laya_uid)
+    };
+
+    function include(file, callback){
+        var head = document.getElementsByTagName('head')[0] || document.documentElement;
+        var script = document.createElement('script');
+
+        var done = false;
+        script.src = file;
+        script.onload = script.onreadystatechange = function() {
+            if ( !done && (!this.readyState ||
+                this.readyState === 'loaded' || this.readyState === 'complete') ) {
+                done = true;
+
+                if(callback) callback();
+
+                // Handle memory leak in IE
+                script.onload = script.onreadystatechange = null;
+                if (head && script.parentNode){
+                    head.removeChild(script);
+                }
+            }
+        };
+        head.insertBefore(script, head.firstChild);
+    }
+    function $_REQUEST(key){
+        return $_GET[key] || $_COOKIE[key] || '';
+    }
+
+    function http_datas(name, data, func){
+        func = func || 'decodeURIComponent';
+        for(var i in data){
+            var m = data[i].match(/([^=]+)(?:=?)(.*)/);
+            if(!m) continue;
+
+            var m2 = [];
+            eval('m[1] = '+ func +'(m[1]);');
+            m[1].replace(
+                /[^\[\]]+|\[\]/g,
+                function (x){
+                    m2.push(x == '[]' ? '' : x);
+                }
+            );
+            if(m2 && m2.length > 1){
+                var offset, base = name +"['"+ m2[0] +"']";
+                var evals = "if(!"+ base +") "+ base +" = [];";
+                for(var j = 1; j < m2.length; j++){
+                    evals += "offset = "+ base +".length;";
+                    base += "["+ (m2[j] ? "'"+ m2[j] +"'" : 'offset') +"]";
+                    evals += 'if(!'+ base +') '+ base +' = [];';
+
+                    if(j == m2.length -1)
+                        evals += base +" = "+ func +"(m[2]);";
+                }
+                eval(evals);
+            }else{
+                eval("try{"+ name +"[m[1]] = "+ func +"(m[2]) || '';}catch(e){"+ name +"[m[1]] = m[2];}");
+            }
+
+        }
+        //name = data = m = m2 = offset = base = evals = null;
+    }
+</script>
+<script>
+    </script>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title></title>
+<meta content="" name="keywords" />
+<meta content="" name="description" /><!--[if IE 6]>
+<script type="text/javascript" src="http://cdn.08c6.com/js/DD_belatedPNG_0.0.8a-min.js?20211011090002"></script>
+<script type="text/javascript" src="https://static.9377a.com/js/ajax.js"></script>
+<script type="text/javascript">
+	//<![CDATA[
+	DD_belatedPNG.fix('*');
+	 //]]>
+</script>
+<![endif]-->
+<div class="head">
+<div class="__data__" data_id="__data__[117658]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>聚合页幻灯片</span></div>
+
+<div class="wrap111" style="width: 1200px;margin: 0 auto;height: 60px;font: 0/0 a;overflow: hidden;"><img src="https://static.9377a.com/games/229520jscs_layoutit/images/20ef2e0e6cf0740f.png" style="width: 124px; height: 62px;" /></div>
+</div>
+
+<div class="container"><!--幻灯片 S-->
+<div class="slide-box" id="slide-box">
+<ul class="slide-bd">
+	<li class="slide-item active" style="display: list-item;">
+	<div class="__data__" data_id="__data__[120214]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>聚合页幻灯片游戏版本shenjie</span></div>
+
+	<div class="__data__" data_id="__data__[120205]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="cqbz" href="https://tp.9377s.com/1578400/?ver=229813bscqmdj" target="_blank"><span>聚合图片1920*463_shenjie</span></a></div>
+	<a game="cqbz" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=231035fgyxhmdk" target="_blank"><img alt="1920x463(5).jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/894f4065926925de.gif" style="width: 1920px; height: 463px;" /> </a></li>
+	<li class="slide-item" style="display: none;">
+	<div class="__data__" data_id="__data__[120217]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>聚合页幻灯片游戏版本ly</span></div>
+
+	<div class="__data__" data_id="__data__[120208]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="rxfs" href="https://tp.9377s.com/1578400/?ver=229860sjb" target="_blank"><span>聚合图片1920*463_ly</span></a></div>
+	<a game="rxfs" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230697dsyxhj" target="_blank"><img alt="bj.jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/cbf7a00a747f43e4.gif" style="width: 1920px; height: 463px;" /> </a></li>
+	<li class="slide-item" style="display: none;">
+	<div class="__data__" data_id="__data__[120220]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>聚合页幻灯片游戏版本cqbz</span></div>
+
+	<div class="__data__" data_id="__data__[120211]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="fw" href="https://tp.9377s.com/1578400/?ver=229837dsmn" target="_blank"><span>聚合图片1920*463_cqbz</span></a></div>
+	<a game="fw" href="http://tp.9377ja.com/1578400/?ver=229844ggsnsl" target="_blank"><img alt="0210(1).png" src="https://static.9377a.com/games/229983jhybscsqgsgqqjhy_layoutit/images/3b18313a6a851a3d.gif" style="width: 1920px; height: 463px;" /> </a></li>
+</ul>
+
+<div class="slide-fd">
+<ul class="slide-nav">
+	<li>1</li>
+	<li class="active">2</li>
+	<li>3</li>
+</ul>
+</div>
+</div>
+<!--幻灯片 E-->
+
+<div class="game-line">&nbsp;</div>
+<!--热门网游游戏 S-->
+
+<div class="hot-game wrap">
+<div class="__data__" data_id="__data__[117655]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>热门网页游戏的年份</span></div>
+
+<div class="title">2024热门页游</div>
+
+<div class="hot-gamelist">
+<div class="__data__" data_id="__data__[117670]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>热门网页游戏调用</span></div>
+
+<ul class="gamelist-ul clearfix">
+	<li>
+	<div class="__data__" data_id="__data__[117682]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="gongsha" href="http://cqyx.4366qq.com/4689/" target="_blank"><span>热门网页游戏图片290*187gongsha</span></a></div>
+
+	<div class="__data__" data_id="__data__[117826]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="gongsha" href="http://cqyx.4366qq.com/4689/" target="_blank"><span>热门网页游戏版本gongsha</span></a></div>
+
+	<div class="gamelist-img"><a game="gongsha" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230886bxDnzs" target="_blank"><img alt="111.png" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/f97bd8c944051e4b.gif" style="width: 290px; height: 187px;" /></a></div>
+
+	<div class="gamelist-h"><a game="gongsha" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230886bxDnzs" target="_blank"><span>冰雪爆率全开</span></a></div>
+
+	<div class="__data__" data_id="__data__[117688]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="gongsha" href="http://cqyx.4366qq.com/4689/" target="_blank"><span>热门网页游戏详情gongsha</span></a></div>
+
+	<p class="gamelist-p">超攻速一秒十刀，爆率拉满！</p>
+	</li>
+	<li>
+	<div class="__data__" data_id="__data__[117694]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="ly" href="http://cqyx.4366qq.com/4690/" target="_blank"><span>热门网页游戏图片290*187ly</span></a></div>
+
+	<div class="__data__" data_id="__data__[117838]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="ly" href="http://cqyx.4366qq.com/4690/" target="_blank"><span>热门网页游戏版本ly</span></a></div>
+
+	<div class="gamelist-img"><a game="ly" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230965spcqlhhf" target="_blank"><img alt="未标题-1.jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/b6511fbf83118997.gif" style="width: 290px; height: 187px;" /></a></div>
+
+	<div class="gamelist-h"><a game="ly" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230965spcqlhhf" target="_blank"><span>道士一秒100符</span></a></div>
+
+	<div class="__data__" data_id="__data__[117706]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="ly" href="http://cqyx.4366qq.com/4690/" target="_blank"><span>热门网页游戏详情ly</span></a></div>
+
+	<p class="gamelist-p">道士加强版，技能吊炸天！</p>
+	</li>
+	<li>
+	<div class="__data__" data_id="__data__[117676]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="ltzn2" href="http://cqyx.4366qq.com/4691/" target="_blank"><span>热门网页游戏图片290*187ltzn2</span></a></div>
+
+	<div class="__data__" data_id="__data__[117880]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="ltzn2" href="http://cqyx.4366qq.com/4691/" target="_blank"><span>热门网页游戏版本ltzn2</span></a></div>
+
+	<div class="gamelist-img"><a game="ltzn2" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230332dsbcqhkolsjjm" target="_blank"><img alt="推广290x187 (2).jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/2ec193d9097bdf8e.gif" style="width: 290px; height: 187px;" /></a></div>
+
+	<div class="gamelist-h"><a game="ltzn2" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230332dsbcqhkolsjjm" target="_blank"><span>大嫂传奇</span></a></div>
+
+	<div class="__data__" data_id="__data__[117679]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="ltzn2" href="http://cqyx.4366qq.com/4691/" target="_blank"><span>热门网页游戏详情ltzn2</span></a></div>
+
+	<p class="gamelist-p">散人专区，真打金高回收！</p>
+	</li>
+	<li>
+	<div class="__data__" data_id="__data__[117691]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="cycs2" href="http://cqyx.4366qq.com/4692/" target="_blank"><span>热门网页游戏图片290*187cycs2</span></a></div>
+
+	<div class="__data__" data_id="__data__[117832]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="cycs2" href="http://cqyx.4366qq.com/4692/" target="_blank"><span>热门网页游戏版本cycs2</span></a></div>
+
+	<div class="gamelist-img"><a game="cycs2" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230922fgxddn" target="_blank"><img alt="290x187(2).jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/a367260a54f84de4.gif" style="width: 290px; height: 187px;" /></a></div>
+
+	<div class="gamelist-h"><a game="cycs2" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=230922fgxddn" target="_blank"><span>复古1.76传奇</span></a></div>
+
+	<div class="__data__" data_id="__data__[117703]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a game="cycs2" href="http://cqyx.4366qq.com/4692/" target="_blank"><span>热门网页游戏详情cycs2</span></a></div>
+
+	<p class="gamelist-p">经典复古，爆率超高，散人首选！</p>
+	</li>
+</ul>
+</div>
+</div>
+<!--热门网游游戏 E-->
+
+<div class="wrap clearfix"><!--游戏排行 S-->
+<div class="game-rank fl">
+<div class="__data__" data_id="__data__[117709]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>游戏排行调用</span></div>
+
+<div class="title">游戏排行TOP5</div>
+
+<div class="game-ranklist">
+<ul class="ranklist-ul" id="list_li">
+	<li class="list-item rank1">
+	<div class="__data__" data_id="__data__[117727]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>178*103游戏排行列表图片cycs2</span></div>
+
+	<div class="__data__" data_id="__data__[117724]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表文字介绍cycs2</span></div>
+
+	<div class="__data__" data_id="__data__[117850]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表的版本cycs2</span></div>
+
+	<div class="__data__" data_id="__data__[117721]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表游戏cycs2</span></div>
+
+	<div style="
+    padding: 14px 0;
+">
+	<div class="brief"><a game="cycs2" href="https://tp.9377s.com/1578400/?ver=229688ggsnzbslogo" style="
+    color: #5c5c5c;
+    padding: 0;
+" target="_blank"><span class="num1">1</span>伏魔战歌</a></div>
+
+	<div class="detail" style="height: 103px; overflow: hidden;">
+	<div class="img" style="
+    /* top: 0; */
+"><a game="cycs2" href="http://tp.9377ja.com/1578400/?ver=229564spddzzz" style="
+    padding: 0;
+" target="_blank"><img alt="111.jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/4cc40746077c23f4.gif" style="width: 178px; height: 99px;" /></a></div>
+
+	<h4>官方推荐</h4>
+
+	<p>新服刚开</p>
+	<a class="game-start" href="http://tp.9377ja.com/1578400/?ver=229564spddzzz" style="
+    padding: 0;
+" target="_blank">开始游戏</a></div>
+	</div>
+	</li>
+	<li class="list-item rank2" style="
+    /* padding-bottom: 14px; */
+">
+	<div class="__data__" data_id="__data__[117718]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>178*103游戏排行列表图片sha</span></div>
+
+	<div class="__data__" data_id="__data__[117715]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表文字介绍sha</span></div>
+
+	<div class="__data__" data_id="__data__[117841]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表的版本sha</span></div>
+
+	<div class="__data__" data_id="__data__[117712]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表游戏sha</span></div>
+
+	<div style="
+    padding: 14px 0;
+">
+	<div class="brief"><a game="sha" href="http://tp.9377ja.com/1578400/?ver=230660czsgdzb" style="
+    color: #5c5c5c;
+    padding: 0;
+" target="_blank"><span class="num2">2</span>白蛇传奇</a></div>
+
+	<div class="detail" style="height: 0px; overflow: hidden;">
+	<div class="img"><a href="https://tp.9377s.com/1578400/?ver=229821stss" target="_blank"><img src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/4f8c420990346fc3.gif" style="width: 178px; height: 99px;" /></a></div>
+
+	<h4>官方推荐</h4>
+
+	<p>新服刚开</p>
+	<a class="game-start" href="https://tp.9377s.com/1578400/?ver=229821stss" style="
+    padding: 0;
+" target="_blank">开始游戏</a></div>
+	</div>
+	</li>
+	<li class="list-item rank3" style="/* padding-bottom: 14px; */">
+	<div class="__data__" data_id="__data__[117739]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>178*103游戏排行列表图片ly</span></div>
+
+	<div class="__data__" data_id="__data__[117748]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表文字介绍ly</span></div>
+
+	<div class="__data__" data_id="__data__[117847]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表的版本ly</span></div>
+
+	<div class="__data__" data_id="__data__[117730]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表游戏ly</span></div>
+
+	<div style="
+    padding: 14px 0;
+">
+	<div class="brief"><a game="ly" href="http://tp.9377ja.com/1578400/?ver=227914scysVIP" style="
+    color: #5c5c5c;
+    padding: 0;
+" target="_blank"><span class="num3">3</span>热血大明《新》</a></div>
+
+	<div class="detail" style="height: 0px; overflow: hidden;">
+	<div class="img"><a game="ly" href="https://tp.9377s.com/1578400/?ver=229896nbflbb" style="
+    padding: 0;
+" target="_blank"><img alt="178x103（1）.jpg" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/442ed9e54d15b33c.gif" style="width: 178px; height: 99px;" /></a></div>
+
+	<h4>官方推荐</h4>
+
+	<p>新服刚开</p>
+	<a class="game-start" game="ly" href="https://tp.9377s.com/1578400/?ver=229896nbflbb" style="
+    padding: 0;
+" target="_blank">开始游戏</a></div>
+	</div>
+	</li>
+	<li class="list-item rank4" style="
+    /* padding-bottom: 14px; */
+">
+	<div class="__data__" data_id="__data__[120232]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>178*103游戏排行列表图片shenjie</span></div>
+
+	<div class="__data__" data_id="__data__[120229]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表文字介绍shenjie</span></div>
+
+	<div class="__data__" data_id="__data__[120226]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表的版本shenjie</span></div>
+
+	<div class="__data__" data_id="__data__[120223]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表游戏shenjie</span></div>
+
+	<div style="
+    padding: 14px 0;
+">
+	<div class="brief"><a game="shenjie" href="https://tp.9377s.com/1578400/?ver=229256hnddzh" style="
+    color: #5c5c5c;
+    padding: 0;
+" target="_blank"><span class="num4">4</span>血饮龙纹</a></div>
+
+	<div class="detail" style="height: 0px; overflow: hidden;">
+	<div class="img"><a game="shenjie" href="https://tp.9377s.com/1578400/?ver=229256hnddzh" target="_blank"><img alt="178x103.jpg" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/bdf6fc46fcb02c2d.gif" style="width: 178px; height: 99px;" /></a></div>
+
+	<h4>官方推荐</h4>
+
+	<p>合击版传奇</p>
+	<a class="game-start" game="shenjie" href="https://tp.9377s.com/1578400/?ver=229256hnddzh" style="
+    padding: 0;
+" target="_blank">开始游戏 </a></div>
+	</div>
+	</li>
+	<li class="list-item rank5" style="
+    /* padding-bottom: 14px; */
+">
+	<div class="__data__" data_id="__data__[117745]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>178*103游戏排行列表图片my</span></div>
+
+	<div class="__data__" data_id="__data__[117754]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表文字介绍my</span></div>
+
+	<div class="__data__" data_id="__data__[117859]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表的版本my</span></div>
+
+	<div class="__data__" data_id="__data__[117736]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>游戏排行列表游戏my</span></div>
+
+	<div style="
+    padding: 14px 0;
+">
+	<div class="brief"><a game="my" href="https://tp.9377s.com/1578400/?ver=229927fgdjb" style="
+    color: #5c5c5c;
+    padding: 0;
+" target="_blank"><span class="num5">5</span>传奇霸主</a></div>
+
+	<div class="detail" style="height: 0px; overflow: hidden; padding-bottom: 14px;">
+	<div class="img"><a game="my" href="https://tp.9377s.com/1578400/?ver=229927fgdjb" target="_blank"><img alt="178x103(4).jpg" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/6aac0478bf08b409.gif" style="width: 178px; height: 99px;" /></a></div>
+
+	<h4>官方推荐</h4>
+
+	<p>长久耐玩</p>
+	<a class="game-start" game="my" href="https://tp.9377s.com/1578400/?ver=229927fgdjb" style="
+    padding: 0;
+" target="_blank">开始游戏</a></div>
+	</div>
+	</li>
+</ul>
+</div>
+
+<div class="left-pic">
+<div class="__data__" data_id="__data__[117811]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>左下广告游戏</span></div>
+
+<div class="__data__" data_id="__data__[117871]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>左下广告游戏版本</span></div>
+
+<div class="__data__" data_id="__data__[117814]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>左下广告326*180</span></div>
+<a href="https://tp.9377s.com/1578400/?ver=229676wszh" target="_blank"><img alt="未标题-2.jpg" src="//cdn-tg.4366.com/games/1633jhylsc//picture/开局召神兽（320×180）.png" style="width: 320px; height: 180px;" /></a></div>
+</div>
+<!--游戏排行 E--><!--精品页游推荐 S-->
+
+<div class="game-tj fr">
+<div class="__data__" data_id="__data__[117757]" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>推荐游戏</span></div>
+
+<div class="title">精品页游推荐</div>
+
+<div class="game-tjlist">
+<ul class="clearfix">
+	<li class="b1">
+	<div class="__data__" data_id="__data__[117874]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>推荐游戏版本mieshen</span></div>
+
+	<div class="__data__" data_id="__data__[117775]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a class="pic fl" game="mieshen" href="http://cqyx.4366qq.com/4678/" target="_blank"><span>推荐游戏图218*159_mieshen</span></a></div>
+	<a class="pic fl" game="mieshen" href="http://tp.9377s.com/1578400/?sid=new&amp;ver=229627scsds" target="_blank"><img alt="灭神1.jpg" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/6d8bf5796beb6c2b.jpg" style="width: 218px; height: 159px;" /> </a>
+
+	<dl class="txt fl">
+		<dt>高爆传奇：大圣合击</dt>
+		<dd>
+		<div class="__data__" data_id="__data__[117793]" page="article" postfix="article_425677" style="display: none; ">
+		<div>&nbsp;</div>
+		<span>推荐游戏简介mieshen</span></div>
+		简介：散人首选 简单粗暴<br />
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 无暗坑 无隐藏 装备好打<a class="btn1" game="mieshen" href="https://tp.9377s.com/1578400/?sid=new&amp;ver=229627scsds" style="display: inline !important;" target="_blank"><img alt="" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/15a1db5274c56092.png" style="width: 153px; height: 48px;" /></a></dd>
+	</dl>
+	</li>
+	<li class="b2">
+	<div class="__data__" data_id="__data__[117844]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>推荐游戏版本cycs2</span></div>
+
+	<div class="__data__" data_id="__data__[117760]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a class="pic fl" game="cycs2" href="http://cqyx.4366qq.com/4679/" target="_blank"><span>推荐游戏图218*159_cycs2</span></a></div>
+	<a class="pic fl" game="cycs2" href="https://tp.9377s.com/1578400/?ver=229849lslr" target="_blank"><img alt="218x159（1）.jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/4e77c67581683ba2.gif" style="width: 218px; height: 159px;" /> </a>
+
+	<dl class="txt fl">
+		<dt>神龙高爆：打金专服</dt>
+		<dd>
+		<div class="__data__" data_id="__data__[117778]" page="article" postfix="article_425677" style="display: none; ">
+		<div>&nbsp;</div>
+		<span>推荐游戏简介cycs2</span></div>
+		简介：装备全爆 BOSS超多<br />
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 刀刀切割 终极好爆<a class="btn1" game="cycs2" href="https://tp.9377s.com/1578400/?ver=229849lslr" target="_blank"><img alt="" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/15a1db5274c56092.png" style="width: 153px; height: 48px;" /></a></dd>
+	</dl>
+	</li>
+	<li class="b3">
+	<div class="__data__" data_id="__data__[117865]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>推荐游戏版本shenjie</span></div>
+
+	<div class="__data__" data_id="__data__[117769]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a class="pic fl" game="shenjie" href="http://cqyx.4366qq.com/4680/" target="_blank"><span>推荐游戏图218*159_shenjie</span></a></div>
+	<a class="pic fl" game="shenjie" href="https://tp.9377s.com/1578400/?sid=new&amp;ver=229848uewqqh" target="_blank"><img alt="218x159.jpg" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/306e449aa494b7e0.jpg" style="width: 218px; height: 159px;" /> </a>
+
+	<dl class="txt fl">
+		<dt>攻速单职业传奇</dt>
+		<dd>
+		<div class="__data__" data_id="__data__[117802]" page="article" postfix="article_425677" style="display: none; ">
+		<div>&nbsp;</div>
+		<span>推荐游戏简介shenjie</span></div>
+		简介：终极必爆 光柱满屏<br />
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 你绝对没玩过的激情服<a class="btn1" game="shenjie" href="https://tp.9377s.com/1578400/?sid=new&amp;ver=229848uewqqh" target="_blank"><img alt="" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/15a1db5274c56092.png" style="width: 153px; height: 48px;" /></a></dd>
+	</dl>
+	</li>
+	<li class="b4">
+	<div class="__data__" data_id="__data__[117856]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>推荐游戏版本sha</span></div>
+
+	<div class="__data__" data_id="__data__[117763]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a class="pic fl" game="sha" href="http://cqyx.4366qq.com/4681/" target="_blank"><span>推荐游戏图218*159_sha</span></a></div>
+	<a class="pic fl" game="sha" href="https://tp.9377s.com/1578400/?ver=229005byydcq" target="_blank"><img alt="未标题-3.jpg" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/bbfe67d06672ad06.jpg" style="width: 218px; height: 159px;" /> </a>
+
+	<dl class="txt fl">
+		<dt>英雄合击版传奇</dt>
+		<dd>
+		<div class="__data__" data_id="__data__[117784]" page="article" postfix="article_425677" style="display: none; ">
+		<div>&nbsp;</div>
+		<span>推荐游戏简介sha</span></div>
+		简介：道道合击 散人大服<br />
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 小怪也能爆极品<a class="btn1" game="sha" href="https://tp.9377s.com/1578400/?ver=229005byydcq" target="_blank"><img alt="" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/15a1db5274c56092.png" style="width: 153px; height: 48px;" /></a></dd>
+	</dl>
+	</li>
+	<li class="b5">
+	<div class="__data__" data_id="__data__[117862]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>推荐游戏版本ly</span></div>
+
+	<div class="__data__" data_id="__data__[117766]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a class="pic fl" game="ly" href="http://cqyx.4366qq.com/4682/" target="_blank"><span>推荐游戏图218*159_ly</span></a></div>
+	<a class="pic fl" game="ly" href="https://tp.9377s.com/1578400/?ver=229875bxgbfpm" target="_blank"><img alt="218x159（4）.jpg" src="https://static.9377a.com/games/230231jhybscsqgsymz_layoutit/images/f7e0895dfb5fbefc.gif" style="width: 218px; height: 159px;" /> </a>
+
+	<dl class="txt fl">
+		<dt>复古传奇：高爆打金</dt>
+		<dd>
+		<div class="__data__" data_id="__data__[117805]" page="article" postfix="article_425677" style="display: none; ">
+		<div>&nbsp;</div>
+		<span>推荐游戏简介ly</span></div>
+		简介：上班族零氪金首选<br />
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 挂机升级 自动打怪<a class="btn1" game="ly" href="https://tp.9377s.com/1578400/?ver=229875bxgbfpm" target="_blank"><img alt="" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/15a1db5274c56092.png" style="width: 153px; height: 48px;" /></a></dd>
+	</dl>
+	</li>
+	<li class="b6">
+	<div class="__data__" data_id="__data__[117868]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<span>推荐游戏版本gongsha</span></div>
+
+	<div class="__data__" data_id="__data__[117772]" page="article" postfix="article_425677" style="display: none; ">
+	<div>&nbsp;</div>
+	<a class="pic fl" game="gongsha" href="http://cqyx.4366qq.com/4683/" target="_blank"><span>推荐游戏图218*159_gongsha</span></a></div>
+	<a class="pic fl" game="gongsha" href="https://tp.9377s.com/1578400/?ver=229628slgsb" target="_blank"><img alt="218x159（6）.jpg" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/2c4275d96a0c17ce.jpg" style="width: 218px; height: 159px;" /> </a>
+
+	<dl class="txt fl">
+		<dt>神龙高爆：超攻速服</dt>
+		<dd>
+		<div class="__data__" data_id="__data__[117790]" page="article" postfix="article_425677" style="display: none; ">
+		<div>&nbsp;</div>
+		<span>推荐游戏简介gongsha</span></div>
+		简介：绿色长久 刀刀加速<br />
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 上线立领 新人礼包<a class="btn1" game="gongsha" href="https://tp.9377s.com/1578400/?ver=229628slgsb" target="_blank"><img alt="" src="https://static.9377a.com/games/229920jhybscsah_layoutit/images/15a1db5274c56092.png" style="width: 153px; height: 48px;" /></a></dd>
+	</dl>
+	</li>
+</ul>
+</div>
+</div>
+<!--精品页游推荐 E--></div>
+</div>
+
+<div class="footer">
+<div class="__data__" data_id="" page="article" postfix="article_425677" style="display: none; ">
+<div>&nbsp;</div>
+<span>2022网页聚合页的底部信息</span></div>
+
+<div class="finner" style="width:1200px;"><img class="img" src="https://static.9377a.com/games/229520jscs_layoutit/images/20ef2e0e6cf0740f.png" style="width: 124px; height: 62px;" />
+<div class="finfo" style="margin-left:10px;">
+<p style="line-height:70px;font-size:14px;">抵制不良网页游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。 适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://static.9377a.com/js/plugin/jquery.slideBox2.0.js"></script><script type="text/javascript">
+		if (window.location.href.indexOf('adm-tg.9377.com') >= 0) {
+			$('.slide-fd').remove();
+		}
+        //轮播图片
+        $('#slide-box').slideBox({mode: 'show', delay: 5});
+        //var sobj = $('#slide-box .slide-nav'), sw = sobj.outerWidth(true);
+        //sobj.css('margin-left', -1*sw/2+'px');
+
+        //排行榜
+        $('#list_li li').mouseover(function(){
+            var _this = $(this);
+            _this.siblings().find('.detail').animate({height:'0'}, {queue:false, duration:300});
+            _this.find('.detail').stop().animate({height:'103px'}, {queue:false, duration:300});
+        }).eq(0).mouseover();
+
+        var app_url = "http:\/\/wvw.9377.com";
+        var str = window.location.search.substring(1);
+
+        var uid;
+        if(str){
+            var arr = str.split('&');
+            
+            for(var i in arr){
+                var tmp = arr[i].split('=');
+                
+                if(tmp[0] == 'uid'){
+                    uid = tmp[1];
+                    break;
+                }
+            }
+        }
+
+        var uid = '';
+        var placement = '';
+        var creative = '';
+        var bd_vid_obj = getUrlParamObj(window.location.href);
+            bd_vid = bd_vid_obj.bd_vid;
+
+        var as = document.getElementsByTagName('a');
+        for(var i = 0; i < as.length; i++){
+            var a = as[i];
+            
+            var game = a.getAttribute('game');
+        }
+
+        //获取url上的值
+        function getUrlParamObj(urlStr) {
+            if (typeof urlStr == "undefined") {
+            var url = decodeURI(location.search); //获取url中"?"符后的字符串
+            } else {
+                var url = "?" + urlStr.split("?")[1];
+            }
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = decodeURI(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+    </script>
+<style type="text/css">/*reset.css*/
+body,div,ul,li,dl,dt,dd,p,span,a,input,select,textarea,em,i,img,h1,h2,h3,h4,h5,h6{margin:0; padding:0;}
+body{font-size:12px; font-family:"Microsoft Yahei"; overflow-x:hidden;}
+ul,li,dl,dt,dd,p,span,a,input,select,textarea,em,i,img,h1,h2,h3,h4,h5,h6{font-style:normal; list-style-type:none; background:none; border:none;}
+a{color:#fff; text-decoration:none; outline:none;}
+a:hover{text-decoration:none;}
+.clearfix{*zoom:1;}
+.clearfix:after{height:0; font-size:0; display:block; clear:both; overflow:hidden; visibility:hidden; content:"";}
+.fl{float:left;}
+.fr{float:right;}
+.indent{text-indent:-999px; overflow:hidden;}
+.none{display:none;}
+
+body{
+    background: #fff;
+    width: 100%;
+    min-width: 1000px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head{
+    height: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.head .wrap{
+    height: 60px;
+    font: 0/0 a;
+    overflow: hidden;
+    background: url(../image/head.png) no-repeat;
+}
+
+.container{
+    position: relative;
+    z-index: 1;
+    zoom: 1;
+}
+
+.slide-box{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+.slide-box .slide-bd li{
+    width: 1920px;
+    height: 463px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    display: none;
+}
+.slide-box .slide-bd li:before {
+    width: 100%;
+    height: 40px;
+    overflow:hidden;
+    content: '';
+    position:absolute; 
+    top: 0px; 
+    left: 0px; 
+}
+.slide-box .slide-bd a{
+    display: block;
+    height: 463px;
+    position: relative;
+}
+.slide-box .slide-nav{
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    padding: 8px 0;
+    z-index: 3;
+}
+.slide-box .slide-nav li{
+    display: inline-block;
+    vertical-align: middle;
+    width: 38px;
+    height: 8px;
+    margin: 0 4px;
+    position: relative;
+    line-height: 99px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #ffba61;
+    *display: inline;
+    *zoom: 1;
+    _overflow: hidden;
+}
+.slide-box .slide-nav li:hover,.slide-box .slide-nav .active{
+    background: #e1405a;
+}
+
+/* 热门网游游戏 */
+.game-line{
+    height: 367px;
+}
+
+.hot-game{
+    position: relative;
+    z-index: 10;
+}
+
+.title{
+    height: 39px;
+    font: 25px/39px \5FAE\8F6F\96C5\9ED1;
+    color: #fff;
+    text-indent: 67px;
+    margin-bottom: 8px;
+
+}
+
+.hot-game .title{
+    text-indent: 57px;
+    background: url(../image/title1.png) no-repeat;
+background-color: #c50000;
+}
+
+.hot-gamelist{
+    height: 292px;
+    overflow: hidden;
+}
+
+.gamelist-ul{
+    margin-right: -10px;
+}
+
+.gamelist-ul li{
+    float: left;
+    width: 290px;
+    height: 260px;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.gamelist-img{
+    height: 187px;
+    overflow: hidden;
+}
+
+.gamelist-h{
+    margin: 7px 0 0 29px;
+    height: 33px;
+}
+
+.gamelist-h span{
+    display: inline-block;
+    color: #040100;
+    font: 18px/29px \5FAE\8F6F\96C5\9ED1;
+    padding-right: 28px;
+    border-bottom: 1px solid #ff3133;
+}
+
+.gamelist-p{
+    height: 24px;
+    overflow: hidden;
+    padding-left: 29px;
+    color: #979797;
+    font: 14px/24px \5FAE\8F6F\96C5\9ED1;
+}
+
+/* 游戏排行 */
+.game-rank{
+    width: 328px;
+}
+
+.game-ranklist{
+    padding: 0 20px;
+    height: 370px;
+    overflow: hidden;
+    border: 1px solid #d7d5d4;
+    border-radius: 10px;
+}
+
+.ranklist-ul{
+    margin-top: 8px;
+}
+
+.game-rank .title{
+    background: url(../image/title2.png) no-repeat;
+    background-color: #c50000;
+}
+
+.ranklist-ul li{
+    border-bottom: 1px dashed #c5c5c5;
+}
+
+.ranklist-ul li.rank5{
+    border-bottom: none;
+}
+
+.list-item a{
+    display: block;
+    padding: 14px 0;
+}
+
+.brief{
+    font: 15px/22px \5FAE\8F6F\96C5\9ED1;
+    color: #5c5c5c;
+    padding-left: 42px;
+    position: relative;
+}
+
+.brief span{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    font: 14px/22px \5FAE\8F6F\96C5\9ED1;
+    color: #fff;
+    background-color: #bdbdbd;
+    margin-left: -42px;
+    border-radius: 3px;
+}
+
+.brief span.num1{
+    background-color: #ffa500;
+}
+
+.brief i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 17px;
+    height: 18px;
+    overflow: hidden;
+    background: url(../image/arrow.png) no-repeat;
+}
+
+.detail{
+    position: relative; 
+    height: 0px; 
+    overflow: hidden;
+}
+
+.detail .img{
+    position: absolute;
+    width: 178px; 
+    height: 103px; 
+    left: 0; 
+    top: 5px;
+}
+
+.detail h4{
+    padding-left: 203px;
+    font: 15px/24px \5FAE\8F6F\96C5\9ED1; 
+    color: #323232; 
+    padding-top: 11px;
+}
+
+.detail p{
+    padding-left: 203px; 
+    height: 37px; 
+    font: 13px/24px \5FAE\8F6F\96C5\9ED1; 
+    color: #5c5c5c;
+}
+
+.game-start{
+    display: block; 
+    margin-left: 203px; 
+    width: 72px; 
+    height: 27px; 
+    font: 12px/27px \5FAE\8F6F\96C5\9ED1;
+    color: #fff;
+    background-color: #ff7a01;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.left-pic{
+	position: relative;
+    margin-top: 10px;
+    height: 180px;
+    overflow: hidden;
+    border: 1px solid #d7d5d4;
+    border-radius: 10px;
+}
+
+.left-pic a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 326px;
+    height: 180px;
+    background:url(about:blank);
+}
+
+/* 精品页游推荐 */
+.game-tj{
+    width: 843px;
+}
+
+.game-tj .title{
+    background: url(../image/title3.png) no-repeat;
+    background-color: #c50000;
+}
+
+.game-tjlist ul{
+    margin-right: -10px;
+}
+
+.game-tjlist li{
+    float: left;
+    position: relative;
+    width: 414px;
+    height: 179px;
+    border: 1px solid #d7d5d4;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+
+.ico{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    background: url(../image/csp.png) no-repeat;
+}
+
+.game-tjlist li.b1 .ico
+,.game-tjlist li.b5 .ico{
+    background-position: -10px -10px;
+}
+
+.game-tjlist li.b2 .ico{
+    background-position: -86px -10px;
+}
+
+.game-tjlist li.b3 .ico{
+    background-position: -10px -86px;
+}
+
+.game-tjlist li.b4 .ico{
+    background-position: -86px -86px;
+}
+
+.game-tjlist li.b6 .ico{
+    background-position: -162px -10px;
+}
+
+.pic{
+    width: 218px;
+    height: 159px;
+    overflow: hidden;
+    margin: 10px 0 0 10px;
+}
+
+.pic:hover img{
+    transform:scale(1.1); 
+    transition:all ease-in-out 0.4s;
+}
+
+.txt{
+    padding: 15px 0 0 8px;
+}
+
+.txt dt{
+    height: 38px;
+    font: 18px/32px \5FAE\8F6F\96C5\9ED1;
+    color: #000000;
+    font-weight:500;
+    background: url(../image/tit_line.png) no-repeat;
+}
+
+.txt dd{
+    position: relative;
+    font: 12px/18px \5FAE\8F6F\96C5\9ED1;
+    color: #848484;
+}
+
+.txt .btn1{
+    position: absolute;
+    top: 72px;
+    left: 20px;
+    width: 153px;
+    height: 48px;
+    overflow: hidden;
+    color: #000;
+}
+
+/* 底部 */
+.footer{
+    width: 100%; 
+    padding: 20px 0; 
+    margin-top: 28px; 
+    position: relative; 
+    background: #f0f0f0;
+}
+
+.footer .finner {
+    width: 1000px; 
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.footer .img { 
+    float: left;
+    margin-left: 84px;
+}
+
+.footer .finfo { 
+    float: left; 
+    line-height: 26px; 
+    padding-top: 10px;
+}
+</style>
+</body>
+<script type="text/javascript">
+    var down_url = ''; //静态资源
+    $('.down_url').attr('href', down_url);
+</script>
+<style>
+    .container-fluid{
+        padding: 0;
+    }
+</style>
+</html>
